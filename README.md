@@ -22,5 +22,5 @@ echo '&lt;pre&gt;', var_dump( selectionSort( $sampleList ) ) ,'&lt;/pre&gt;';
 // &gt;   [5]=&gt;
 // &gt;   int(42)
 // &gt; }
-
 </pre>
+https://developer.donnoval.ru/selection-sort/
