@@ -1,0 +1,29 @@
+{
+	"name": "da41b94c/selection-sort-php",
+	"description": "Educational selection sort implementation for PHP with custom comparator support.",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.5"
+	},
+	"autoload": {
+		"files": [
+			"functions.php"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"SelectionSortPhp\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"test": "phpunit",
+		"benchmark": "php benchmark/benchmark.php"
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
